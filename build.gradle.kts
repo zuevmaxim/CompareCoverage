@@ -25,6 +25,10 @@ dependencies {
     implementation("org.jacoco:org.jacoco.core:0.8.5")
     implementation("com.google.guava:guava:28.2-jre")
 
+    // jwp
+    implementation(project(":fuzz"))
+    implementation(project(":agent"))
+
     implementation("org.apache.commons:commons-compress:1.20")
 }
 
